@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<STYLE>
+body{
+background:linear-gradient( to top, rgba(0,0,0,0.5) 50% , rgba(0,0,0,0.5) 50%  ) ,url(2.jpg);
+background-position:cenetr;
+background-size:cover;
+text-align:center;
+}
+
+h1{
+color:orange;
+text-align:center;
+font-family:new romanstime;
+margin-top:20px;
+}
+a{
+text-decoration:none;
+margin:80px;
+color:yellow;
+font-size:20px;
+}
+a:hover{
+  color:red;
+}
+video{
+border:1px solid  rgba(0,0,0,0.5);
+}
+h3{
+color:white;
+}
+input{
+padding:10px;
+border:2px solid red;
+
+}
+h2{
+color:red;
+}
+.sub{
+background:linear-gradient(45deg,white,red);
+width:80px;
+border-radius:15px;
+}
+td{
+color:white;
+
+}
+
+table{
+padding:50px;
+margin-left:40%;
+height:600px;
+}
+select{
+margin-left:40px;
+background-color:pink;
+padding:10px;
+}
+.sub:hover{
+color:white;
+background-color:linear-gradient(45deg,pink,green);
+}
+
+</STYLE>
+</head>
+
+<body>
+<h1>EMPLOYEE  MANAGEMENT  SYSTEM</h1><br><hr>
+<a href="home.html">Home</a><a href="">AboutUs</a><a href="">ContactUs</a><a href="register.html">Register</a><a href="login.html">Login</a><p></p><hr>
+<h2>New Employee Register Here </h2>
+<form action="Register" method="post"><table>
+<tr><td> User Name:</td><td><input type="text" name="uname"></td></tr>
+ <tr><td>Password:</td><td><input type="password" name="pswd"></td></tr>
+ <tr><td>Email:</td><td><input type="email" name="mail"></td></tr>
+<tr><td> Gender:</td><td> <input type="radio" value="Male" name="gen">Male<input type="radio" value="Female"  name="gen">Female</td></tr>
+<tr><td> Mobile no:</td><td><input type="text" name="mbl"></td></tr>
+<tr><td> Address:</td><td><input type="text" name="ads"></td></tr>
+<tr><td> Country:</td><td><select name="country">
+ <option value="">select country</option>
+ <option value="india">India</option>
+ <option value="japan">Japan</option>
+ <option value="russia">Russia</option>
+ <option value="USA">USA</option>
+
+ </select></tr>
+ <tr><td><input type="reset" value="Reset" class="sub"></td><td><input type="submit" value="Register" class="sub"></td></tr></table>
+</form>
+</body>
+</html>

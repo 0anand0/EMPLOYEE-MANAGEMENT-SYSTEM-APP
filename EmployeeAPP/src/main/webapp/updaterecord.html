@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<STYLE>
+body{
+background:linear-gradient( to top, rgba(0,0,0,0.5) 50% , rgba(0,0,0,0.5) 50%  ) ,url(2.jpg);
+background-position:cenetr;
+background-size:cover;
+text-align:center;
+}
+
+h1{
+color:orange;
+text-align:center;
+font-family:new romanstime;
+margin-top:20px;
+}
+a{
+text-decoration:none;
+margin:80px;
+color:yellow;
+font-size:20px;
+}
+a:hover{
+  color:red;
+}
+video{
+border:1px solid  rgba(0,0,0,0.5);
+}
+h3{
+color:white;
+}
+input{
+padding:10px;
+margin-left:50px;
+}
+h2{
+color:red;
+}
+.sub{
+background:linear-gradient(45deg,white,red);
+width:80px;
+border-radius:15px;
+}
+p{
+color:white;
+}
+select{
+margin-left:80px;
+background-color:pink;
+padding:10px;
+}
+.sub:hover{
+color:white;
+background-color:linear-gradient(45deg,pink,green);
+}
+</STYLE>
+</head>
+
+<body>
+<h1>EMPLOYEE  MANAGEMENT  SYSTEM</h1><br><hr>
+<a href="home.html">Home</a><a href="">AboutUs</a><a href="">ContactUs</a><a href="register.html">Register</a><a href="login.html">Login</a><p></p><hr>
+<h2>Update User Record </h2>
+<form action="UpdateRecord" method="post"><br><p>
+ User Name:<input type="text" name="uname"><br><br>
+ Password:<input type="password" name="pswd"><br><br><br>
+ Email:<input type="email" name="mail"><br><br><br>
+ Mobile no :<input type="text" name="mbl"><br><br><br>
+ Address:<input type="text" name="ads"><br><br><br>
+ Country:<select name="country">
+ <option value="">select country</option>
+ <option value="india">India</option>
+ <option value="japan">Japan</option>
+ <option value="russia">Russia</option>
+ <option value="USA">USA</option>
+
+ </select></p>
+ <input type="reset" value="Reset" class="sub"><input type="submit" value="Update" class="sub">
+</form>
+</body></html>
